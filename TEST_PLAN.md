@@ -40,8 +40,9 @@ takich jak rejestracja, zakupy, oraz proces płatności.
 
 ## 6.Kryteria akceptacji
 * **Kryterium wejścia/rozpoczęcia:** Dostępność stabilnej wersji strony na serwerze testowym
-* **Kryteria wyjścia/zakończenia:** *Wykonanie 100% zaplanowanych przypadków testowych.
-    * Brak błędów o priorytecie "Blocker" i "Critical".
+* **Kryteria wyjścia/zakończenia:** 
+  * Wykonanie 100% zaplanowanych przypadków testowych.
+  * Brak błędów o priorytecie "Blocker" i "Critical".
  
 ## 7.Analiza Ryzyk 
 | Ryzyko | Poziom | Plan mitygacji |
