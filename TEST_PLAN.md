@@ -45,3 +45,9 @@ takich jak rejestracja, zakupy, oraz proces płatności.
  
 ## 7.Analiza Ryzyk 
 | Ryzyko | Poziom | Plan mitygacji |
+| :--- | :--- | :--- |
+| Problemy z dostepnością serwera | Średni 🟠 | Powtórzenie testów po przywróceniu stabilności. |
+| Reklamy Google Ads przesłaniające UI | Niski 🟢 | Użycie adBlocka podczas testów funkcjonalnych. |
+
+---
+
