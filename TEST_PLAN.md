@@ -21,7 +21,7 @@ takich jak rejestracja, zakupy, oraz proces płatności.
 * Płatności rzeczywistymi kartami kredytowymi (używamy danych testowych).
 
 ## 3.Środowisko testowe
-* **URL:** [Strona testowa - automationexercise.com](https://automationexercise.com/)
+* **URL:** <a href ="https://automationexercise.com/" target="_blank" rel="noopener noreferrer">Strona testowa automationexercise.com </a>
 * **Przeglądarki:** Google Chrome (najnowsza wersja)
 * **Urządzenia:** Desktop (Windows) oraz emulacja urządzenia mobilnego (DevTools).
 
