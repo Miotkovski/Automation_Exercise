@@ -26,10 +26,11 @@ takich jak rejestracja, zakupy, oraz proces płatności.
 * **Urządzenia:** Desktop (Windows) oraz emulacja urządzenia mobilnego (DevTools).
 
 ## 4. Strategia testów
-* **Typy testów:** * Testy funkcjonalne (Manualne).
-    * Testy regresji (po zgłoszeniu porawek).
-    * Testy dymne (Smoke tests) - kluczowe ścieżki po każdym wdrożeniu.
-    * Testy UI/UX - zgodność interfejsu z intuicyjną nawigacją.
+* **Typy testów:**
+  * Testy funkcjonalne (Manualne).
+  * Testy regresji (po zgłoszeniu porawek).
+  * Testy dymne (Smoke tests) - kluczowe ścieżki po każdym wdrożeniu.
+  * Testy UI/UX - zgodność interfejsu z intuicyjną nawigacją.
 * **Podejście:** Black-box (brak wglądu w kod źródłowy).
 
 ## 5.Narzędzia
