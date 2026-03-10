@@ -20,6 +20,28 @@ takich jak rejestracja, zakupy, oraz proces płatności.
 * Testy wydajnościowe (Load/Stress testing).
 * Płatności rzeczywistymi kartami kredytowymi (używamy danych testowych).
 
-## 3.Środowisko testowe:
+## 3.Środowisko testowe
 * **URL:** [Strona testowa - automationexercise.com](https://automationexercise.com/)
 * **Przeglądarki:** Google Chrome (najnowsza wersja)
+* **Urządzenia:** Desktop (Windows) oraz emulacja urządzenia mobilnego (DevTools).
+
+## 4. Strategia testów
+* **Typy testów:** * Testy funkcjonalne (Manualne).
+    * Testy regresji (po zgłoszeniu porawek).
+    * Testy dymne (Smoke tests) - kluczowe ścieżki po każdym wdrożeniu.
+    * Testy UI/UX - zgodność interfejsu z intuicyjną nawigacją.
+* **Podejście:** Black-box (brak wglądu w kod źródłowy).
+
+## 5.Narzędzia
+* **Zarządzanie testami:** GitHub (Issues & Projects).
+* **Raportowanie błędów:** Jira / Github Issues.
+* **Testy API:** Postman.
+* **Dokumentacja:** Markdown.
+
+## 6.Kryteria akceptacji
+* **Kryterium wejścia/rozpoczęcia:** Dostępność stabilnej wersji strony na serwerze testowym
+* **Kryteria wyjścia/zakończenia:** * Wykonanie 100% zaplanowanych przypadków testowych.
+    * Brak błędów o priorytecie "Blocker" i "Critical".
+ 
+## 7.Analiza Ryzyk 
+| Ryzyko | Poziom | Plan mitygacji |
