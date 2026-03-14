@@ -6,9 +6,9 @@
 > Zestaw 'DATA-01' jest celowo współdzielony między TC-01 a TC-02
 
 ## 🪪 Dane Testowe (Test data Pool)
-| ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły (Płeć, Data ur. Adres) | Company | Checkboxy | 
+| ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły (Płeć, Data ur. Adres, nr telefonu) | Company | Checkboxy | 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | Pan, **12/05/1990**, USA, California, LA, Sezamkowa 10, 90001 | Test Company | Newsletter: TAK, Offers: TAK |
+| **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | Pan, **12/05/1990**, USA, California, Los Angeles, Sezamkowa 10, 90001, 123456789 | Test Company | Newsletter: TAK, Offers: TAK |
 <br>
 <br>
 
