@@ -1,6 +1,17 @@
 # Przypadki testowe: Automation Exercise
 
 ## 1. Moduł: Rejestracja i Zarządzanie Kontem
+
+> ** Notatka techniczna: ** > Przypadki testowe w module Rejestracji zostały zaprojektowane jako **scenariusz zależny**. 
+> Zestaw 'DATA-01' jest celowo współdzielony między TC-01 a TC-02
+
+## 🪪 Dane Testowe (Test data Pool)
+| ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły Adresowe | Checkboxy | 
+| :--- | :--- | :--- | :--- | :--- | :--- | 
+| **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | USA, California, LA, Sezamkowa 10, 90001 | Newsletter: TAK, Offers: TAK |
+
+
+
 | ID | Tytuł | Warunki testowe | Kroki testowe | Oczekiwany rezultat |
 | :--- | :--- | :--- | :---| :--- |
 | **TC-01** | Skuteczna rejestracja nowego użytkownika | Użytkownik nie posiada konta na platformie | 1. Wejdź na stronę główną. <br>2. Kliknij przycisk 'Sign Up' / Login<br>3. W sekcji 'New User Signup!' wpisz Imię(Jan QA) i poprawny e-mail(tester_jan@poczta.pl).<br>4. Kliknij 'Signup'.<br>5. Wypełnij formularz (Hasło, Dane adresowe).<br>6. Kliknij 'Create Account'. | Wyświetla się komunikat: 'ACCOUNT CREATED!' oraz przycisk 'Continue'.|
