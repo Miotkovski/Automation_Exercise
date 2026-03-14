@@ -2,19 +2,20 @@
 
 ## 1. Moduł: Rejestracja i Zarządzanie Kontem
 
-> ** Notatka techniczna: ** > Przypadki testowe w module Rejestracji zostały zaprojektowane jako **scenariusz zależny**. 
+> ** Notatka techniczna: ** > Przypadki testowe w module Rejestracji zostały zaprojektowane jako **scenariusz zależny**. <br>
 > Zestaw 'DATA-01' jest celowo współdzielony między TC-01 a TC-02
 
 ## 🪪 Dane Testowe (Test data Pool)
-| ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły Adresowe | Checkboxy | 
-| :--- | :--- | :--- | :--- | :--- | :--- | 
-| **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | USA, California, LA, Sezamkowa 10, 90001 | Newsletter: TAK, Offers: TAK |
-
+| ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły (Płeć, Data ur. Adres) | Company | Checkboxy | 
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | Pan, **12/05/1990**, USA, California, LA, Sezamkowa 10, 90001 | Test Company | Newsletter: TAK, Offers: TAK |
+<br>
+<br>
 
 
 | ID | Tytuł | Warunki testowe | Kroki testowe | Oczekiwany rezultat |
 | :--- | :--- | :--- | :---| :--- |
-| **TC-01** | Skuteczna rejestracja nowego użytkownika | Użytkownik nie posiada konta na platformie | 1. Wejdź na stronę główną. <br>2. Kliknij przycisk 'Sign Up' / Login<br>3. W sekcji 'New User Signup!' wpisz Imię(Jan QA) i poprawny e-mail(tester_jan@poczta.pl).<br>4. Kliknij 'Signup'.<br>5. Wypełnij formularz (Hasło, Dane adresowe).<br>6. Kliknij 'Create Account'. | Wyświetla się komunikat: 'ACCOUNT CREATED!' oraz przycisk 'Continue'.|
+| **TC-01** | Skuteczna rejestracja nowego użytkownika | Użytkownik nie posiada konta na platformie | 1. Wejdź na stronę główną. <br>2. Kliknij przycisk 'Sign Up' / Login<br>3. W sekcji 'New User Signup!' wprowadź dane(**DATA-01**).<br>4. Kliknij 'Signup'.<br>5. Wypełnij formularz (**DATA-01).<br>6. Kliknij 'Create Account'. | Wyświetla się komunikat: 'ACCOUNT CREATED!' oraz przycisk 'Continue'.|
 | **TC-02** | Próba rejestracji na istniejący e-mail | Istnieje jużkonto zarejestrowane na e-mail: 'test@test.com' | 1. Wejdź na stronę 'Signup / Login'<br>2. Wpisz nazwę i e-mail: 'test@test.com'.<br>3. Kliknij 'Signup'. | Pojawia się komunikat o błędzie: 'Email Address already exist'. |
 | **TC-03** | Usunięcie konta użytkownika | Użytkownik jest zalogowany na swoje konto. | 1.Kliknij przycisk 'Delete Account.<br> 2. Konto zostaje usunięte. | Wyświetla się komunikat 'ACCOUNT DELETED!'. |
 | **TC-04** | Dodanie produktu do koszyka jako Gość | 1.Użytkownik nie jest zalogowany.<br>2.Koszyk jest pusty. | 1.Wejdź na stronę główną [Automation Exercise](https://automationexercise.com)<br>2.Przewiń w dół do sekcji **'Features Items'**.<br>3.Najedź myszką na pierwszy dostępny produkt (np.'Blue Top') i kliknij **'Add to cart'**.<br>4.W oknie modalnym (pop-up), które się pojawi, kliknij przycisk **'View Cart'** | 1.Użytkownik zostaje przekierowany do widoku koszyka ('/view__cart')<br>2.Produkt 'Blue Top' jest widoczny na liście.<br>3.Ilość (Quantity) wynosi 1, a cena zgadza się z ceną na stronie głównej.<br>4.Użytkownik nie został poproszony o logowanie na tym etapie. |
