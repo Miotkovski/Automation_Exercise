@@ -20,4 +20,4 @@
 | **TC-04** | Dodanie produktu jako Gość | 🟩 PASSED | Pomyślnie dodano produkt do pustego koszyka. Nie wyświetlił się komunikat o żądaniu logowania |
 | **TC-05** | Blokada płatności dla Gościa | 🟩 PASSED | Okno pop-up wyświetla się poprawnie. System nie pozwala na przejście do strony z danymi wysyłki. |
 | **TC-06** | Powrót do checkout po logowaniu | 🟩 PASSED | System pomyślnie loguje użytkownika. Zawartość koszyka pozostaje w stanie z przed logowania(1 przedmiot). Wyświetlają się sekcje dot. danych wysyłkowych oraz przeglądu koszyka. |
-| **TC-07** | Finalizacja zamówienia i płatności | ⏳ PENDING | 
+| **TC-07** | Finalizacja zamówienia i płatności | 🟩 PASSED | Poprawne przekierowanie do strony płatności. Płatność przebiegła pomyślnie. |
