@@ -1,4 +1,4 @@
-🛒 Dokumentacja QA i Testy E2E: Automation Exercise
+# 🛒 Dokumentacja QA i Testy E2E: Automation Exercise
 
 ## 📝 O projekcie
 Projekt obejmuje kompleksowe testy manualne platformy e-commerce **Automation Exercise**. Skupiłem się na weryfikacji krytycznych procesów biznesowych (Critical Business Paths), takich jak rejestracja użytkownika, zarządzanie koszykiem oraz proces płatności.
