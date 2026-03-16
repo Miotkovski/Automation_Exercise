@@ -6,7 +6,7 @@ Projekt obejmuje kompleksowe testy manualne platformy e-commerce **Automation Ex
 Głównym celem projektu było zaprezentowanie umiejętności projektowania dokumentacji testowej, zarządzania danymi testowymi oraz raportowania wyników w środowisku zgodnym ze standardami QA.
 
 ## 🚀 Wykorzystane narzędzia i technologie
-* **Dokumentacja:** Markdown (VS Code)
+* **Dokumentacja:** Markdown (VS 2022)
 * **Zarządzanie wersjami:** Git / GitHub
 * **Przeglądarka:** Google Chrome (DevTools)
 * **Platforma testowa:** [Automation Exercise](https://automationexercise.com/)
@@ -25,8 +25,8 @@ Projekt realizuje pełny scenariusz **End-to-End (E2E)**, symulujący cykl życi
 5. **Zarządzanie kontem** (Usunięcie konta i weryfikacja czyszczenia bazy danych).
 
 ## 💡 Kluczowe umiejętności zaprezentowane w projekcie
-* Projektowanie przypadków testowych (Test Design).
-* Zarządzanie danymi testowymi (Test Data Management - Single Source of Truth).
+* Projektowanie przypadków testowych.
+* Zarządzanie danymi testowymi.
 * Wykonywanie testów regresji i E2E.
 * Dokumentowanie wyników w profesjonalnym formacie technicznym.
 * Podstawowa obsługa Git i terminala (CLI).
