@@ -7,9 +7,9 @@
 
 ## Podsumowanie
 * **Wszystkie testy:** 7
-* **Zaliczone testy:** 6
+* **Zaliczone testy:** 7
 * **Błędy:** 0
-* **Oczekujące:** 1
+* **Oczekujące:** 0
 
 ##Szczegółowe wyniki
 | ID | Tytuł | Status | Uwagi |
