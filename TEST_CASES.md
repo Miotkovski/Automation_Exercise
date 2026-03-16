@@ -9,8 +9,7 @@
 | ID Danych | Imię / Nazwisko | E-mail | Hasło | Szczegóły (Płeć, Data ur. Adres, nr telefonu) | Company | Checkboxy | 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **DATA-01** | Jan QA | tester_jan@poczta.pl | Pasword123 | Pan, **12/05/1990**, <br>USA, California, Los Angeles, <br>Sezamkowa 10, 90001, <br>nr.tel: 123456789 | Test Company | Newsletter: TAK, Offers: TAK |
-<br>
-<br>
+
 | ID Danych | Przeznaczenie | Imię na karcie | Numer karty | CVC / Expiry | 
 | :--- | :--- | :--- | :--- | :--- |
 | **DATA-02** | Płatnośc testowa | Jan | 4111111111111111 | CVC: 123, Exp:01/2030 |
